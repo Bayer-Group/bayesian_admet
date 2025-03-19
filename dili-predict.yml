@@ -1,0 +1,32 @@
+name: dili-predict
+channels:
+  - nodefaults
+  - conda-forge
+  - nvidia
+dependencies:
+  - python=3.12.
+  - numpy=1.26
+  - pymc=5.15
+  - pymc-bart
+  - jaxlib=*=*cuda*
+  - cuda-nvcc
+  - jax
+  - blackjax
+  - cudnn=9.2.1.*
+  - pandas
+  - scikit-learn=1.6.1
+  - umap-learn
+  - rdkit
+  - matplotlib
+  - seaborn
+  - arviz
+  - pytest
+  - ruff
+  - coverage
+  - ipython
+  - ipykernel
+  - jupyter
+  - mypy
+  - pip
+  - pip:
+    - -e .

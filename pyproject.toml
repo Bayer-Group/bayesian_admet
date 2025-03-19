@@ -1,0 +1,14 @@
+[build-system]
+requires = ["setuptools", "setuptools-scm"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "dili-predict"
+version = "2025.0.0"
+requires-python = ">=3.11"
+authors = [{name = "Flavio Morelli"}]
+description = "Predicting DILI with Bayesian models"
+readme = "README.md"
+
+[tool.setuptools]
+packages = ["dili_predict"]
