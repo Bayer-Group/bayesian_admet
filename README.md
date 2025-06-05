@@ -1,13 +1,19 @@
 # Predicting in vitro assays related to liver function using probabilistic machine learning
 *Authors: Flavio M. Morelli, Marian Raschke, Natalia Jungmann, Michaela Bairlain, Marina García de Lomana*
 
-This repository contains the code used for training, inference, and evaluation of the model presented in the manuscript "Predicting in vitro assays related to liver function using probabilistic machine learning".
+This repository contains the code used for training, inference, and evaluation of the model presented in the manuscript:
+
+Morelli, F. M., Raschke, M., Jungmann, N., Bairlein, M., & de Lomana, M. G. (2025). Predicting in vitro assays related to liver function using probabilistic machine learning. Toxicology, 154195. [https://doi.org/10.1016/j.tox.2025.154195](https://doi.org/10.1016/j.tox.2025.154195)
 
 **All instructions assume that the working directory is the cloned repo**
 
 ## 0. Overview
 
+![alt_text](overview.png)
+
 While machine learning has gained traction in toxicological assessments, the limited data availability requires the quantification of uncertainty of in silico predictions for reliable decision-making. This study addresses the challenge of predicting the outcome of in vitro assays associated with liver function by systematically comparing various probabilistic methods. Our research fills a critical gap by integrating multiple data modalities – chemical descriptors, gene expression, and morphological profiles – into a probabilistic framework aimed at predicting in vitro assays and quantifying uncertainty. We present a comprehensive evaluation of the performance of these data modalities and describe how this framework and the in vitro assay predictions can be integrated to estimate the probability of drug-induced liver injury (DILI) occurrence. Additionally, we contribute new experimental data for reactive oxygen species generation and hepatocyte toxicity assays, providing valuable resources for future research. Our findings underscore the importance of incorporating uncertainty quantification in toxicity predictions, potentially leading to a safer drug development process and reduced reliance on animal testing.
+
+
 
 ## 1. Conda environment (Linux, CUDA)
 
